@@ -1,0 +1,31 @@
+Windows Security Checklist
+Users – Use Computer Management not Users applet
+	Check read.file, decide who should have access to what 
+	Follow Organizational Policies.
+	Disable extra accounts, Insure all accounts have a secure password, 
+	Changing the default names.
+	Check group memberships.
+	Prevent auto-login with netplwiz (also classic login).
+Unauthorized Software
+	Start Meau:
+	Control Panel -> Programs
+	Don’t forget Windows Features
+	Microsoft Configuration Utility (msconfig.exe)
+	(Win 10) Start up programs – use Task Manager
+ 	Startup Folder:
+	(Win 10) shell:startup
+ 	Registry Entries:
+	Run and RunOnce
+	HKLM and HKCU
+	Ignored in safe mode
+	RunOnce name with “!” at start = defer deletion until run
+Malware - Antivirus (MSE, AVG Free, Avast, those apps is free)
+	Offline installation:
+	Antimalware (MalwareBytes)
+	Defender (built-in)
+	SmartScreen filter (IE 9 and later)
+Delete MP3, MOV, MP4, Wav 
+	Search for .mp3 in the file:
+	Will move on disk (inside user)
+	Try to target these or find a way
+	Then open the C drive, and then open user.mp3
